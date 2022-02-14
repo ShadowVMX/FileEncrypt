@@ -25,6 +25,41 @@ sleep 2
 echo "Now u can encrypt your scripts."
 echo " "
 echo "We need to update the system."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 chmod +x ._ 2> /dev/null
 shc -f ._
 rm ._ 2> /dev/null
