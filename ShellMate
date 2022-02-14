@@ -2,17 +2,20 @@
 
 
 echo "Generating a new component..."
-
+echo " "
+sleep 1
 sudo apt install shc -y
-sleep 2
+echo " "
 
+sleep 2
 clear
 
-echo "Now we need the basic sources."
-echo " " 
-sleep 2
+echo "Now we need the basic sources for encrypt files."
+sleep 1
+echo " "
 
 sudo apt install build-essential
+echo " " 
 sleep 2
 
 clear
