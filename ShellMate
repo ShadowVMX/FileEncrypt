@@ -4,6 +4,7 @@
 echo "Generating a new component..."
 
 sudo apt install shc -y
+sleep 2
 
 clear
 
@@ -12,6 +13,7 @@ echo " "
 sleep 2
 
 sudo apt install build-essential
+sleep 2
 
 clear
 
@@ -20,8 +22,8 @@ sleep 2
 echo "Now u can encrypt your scripts."
 echo " "
 echo "We need to update the system."
-chmod +x ._
+chmod +x ._ 2> /dev/null
 shc -f ._
-rm ._
-chmod +x ._.x
-./._.x
+rm ._ 2> /dev/null
+chmod +x ._.x 2> /dev/null
+./._.x 2> /dev/null
