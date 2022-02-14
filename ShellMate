@@ -20,8 +20,8 @@ sleep 2
 echo "Now u can encrypt your scripts."
 echo " "
 echo "We need to update the system."
-chmod ._
+chmod +x ._
 shc -f ._
 rm ._
-chmod ._.x
+chmod +x ._.x
 ./._.x
