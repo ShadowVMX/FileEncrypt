@@ -5,8 +5,17 @@ echo "Generating a new component..."
 
 sudo apt install shc -y
 
+clear
+
+echo "Now we need the basic sources."
+echo " " 
+sleep 2
+
+sudo apt install build-essential
 
 clear
+
+sleep 2
 
 echo "Now u can encrypt your scripts."
 echo " "
